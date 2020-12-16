@@ -1,0 +1,83 @@
+.landingPage {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.landingPage__contentBox {
+  display: flex;
+}
+
+.landingPage__footer {
+  background-color: white;
+  height: 7vh;
+}
+
+.landingPage__right {
+  background-color: white;
+  width: 50%;
+  height: 93vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.landingPage__left {
+  background-color: var(--twitter-color);
+  width: 50%;
+  height: 93vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.landingPage__left > span {
+  padding: 20px;
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+  text-transform: inherit;
+}
+
+.landingPage__icon {
+  margin-right: 20px !important;
+}
+
+.landingPage__btn {
+  background-color: var(--twitter-color) !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  border-radius: 30px !important;
+  height: 40px !important;
+  /* width: 10vw; */
+  margin: 5px !important;
+}
+
+.landingPage__btn2 {
+  background-color: white !important;
+  border: 1px var(--twitter-color) solid !important;
+  color: var(--twitter-color) !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  border-radius: 30px !important;
+  height: 40px !important;
+  margin: 5px !important;
+}
+
+.landingPage__rightBox {
+  width: 30vw;
+}
+
+.landingPage__register {
+  margin: 10px;
+  font-weight: 700;
+}
+
+.landingPage__rightBox > h2 {
+  margin: 10px 10px 40px;
+  font-size: 1.8rem;
+}
