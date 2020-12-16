@@ -1,11 +1,15 @@
 .landingPage {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
 }
 
 .landingPage__contentBox {
+  background-color: red;
   display: flex;
+  width: 100%;
 }
 
 .landingPage__footer {
@@ -15,7 +19,6 @@
 
 .landingPage__right {
   background-color: white;
-  width: 50%;
   height: 93vh;
   display: flex;
   flex-direction: column;
@@ -25,7 +28,6 @@
 
 .landingPage__left {
   background-color: var(--twitter-color);
-  width: 50%;
   height: 93vh;
   display: flex;
   flex-direction: column;

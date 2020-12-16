@@ -20,11 +20,11 @@ function Sidebar() {
             <NavLink to="/home"><TwitterIcon className="sidebar__twitterIcon"/></NavLink>
 
             <NavLink to="/home"><SidebarOption active icon={<HomeIcon />} text="Home"/></NavLink>
-            <SidebarOption icon={<SearchIcon />} text="Explore"/>
+            {/* <SidebarOption icon={<SearchIcon />} text="Explore"/>
             <SidebarOption icon={<NotificationsNoneIcon />} text="Notifications"/>
             <SidebarOption icon={<MailOutlineIcon />} text="Messages"/>
-            <SidebarOption icon={<BookmarkBorderIcon />} text="Bookmarks"/>
-            <SidebarOption icon={<ListAltIcon />} text="Lists"/>
+            <SidebarOption icon={<BookmarkBorderIcon />} text="Bookmarks"/> */}
+            <NavLink to="/users"><SidebarOption icon={<ListAltIcon />} text="Users"/></NavLink>
             <NavLink to="/profile"><SidebarOption icon={<PermIdentityIcon />} text="Profile"/></NavLink>
             <SidebarOption icon={<MoreHorizIcon />} text="More"/>
 

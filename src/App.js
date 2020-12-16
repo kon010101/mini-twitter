@@ -5,6 +5,7 @@ import Widgets from "./components/Widgets";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Profile from "./components/Profile";
 import LandingPage from "./components/LandingPage";
+import Users from "./components/Users";
 
 function App() {
   return (
@@ -22,6 +23,11 @@ function App() {
           <Route path="/profile">
             <Sidebar />
             <Profile />
+            <Widgets />
+          </Route>
+          <Route path="/users">
+            <Sidebar />
+            <Users />
             <Widgets />
           </Route>
         </Switch>

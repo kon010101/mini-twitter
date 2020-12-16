@@ -35,7 +35,7 @@ function LandingPage() {
           </div>
         </div>
       </div>
-      <div className="landingPage__footer">footer</div>{" "}
+      <div className="landingPage__footer">footer</div>
     </div>
   );
 }
